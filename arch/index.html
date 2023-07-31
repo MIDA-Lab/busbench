@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>MIDA/BUS Benchmark</title>
+    <meta name="description" content="MIDA Breast Ultrasound Benchmark">
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="canonical" href="http://localhost:4000/">
+    <link rel="alternate" type="application/rss+xml" title="MIDA/BUS Benchmark" href="http://localhost:4000/feed.xml" />
+
+    <link href='https://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.min.css">
+<script src = "https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src = "https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
+<script>
+$(document).ready(function() {
+    $('table.display').DataTable();
+} );
+</script>
+<style>.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button3 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid black;
+}
+</style>
+</head>
+
+
+  <body>
+  <div class="page">
+    <header class="site-header">
+    <a class="site-title" href="/">MIDA/BUS Benchmark</a>
+    <nav class="site-nav">
+        <a href="#" class="menu-icon menu.open">
+            <svg viewBox="0 0 18 15">
+                <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+                <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+                <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+            </svg>
+        </a>
+        <div class="trigger"><h1>Main Navigation</h1>
+            <ul class="menu">
+    
+    
+     <li><a href="/datasets/" class="page-link">Datasets</a>
+    
+    </li>
+    
+    
+     <li><a href="/result/" class="page-link">Results</a>
+    
+    </li>
+    
+    
+     <li><a href="/source_code/" class="page-link">Source code</a>
+    
+    </li>
+    
+    
+     <li><a href="/submission/" class="page-link">Submission</a>
+    
+    </li>
+    
+</ul>
+
+        </div>
+    </nav>
+</header>
+
+
+    <div class="post">
+    <header class="post-header">
+        <h1></h1>
+    </header>
+
+    <h1 id="-a-benchmark-for-breast-ultrasound-image-classification"><center><span style="color:Black"> A Benchmark for Breast Ultrasound Image Classification</span></center></h1>
+<p>Classification of breast ultrasound (BUS) images is an essential yet challenging task in computer-aided diagnosis systems. 
+Recently, deep learning-based approaches for BUS image classification have demonstrated state-of-the-art performance; however, it is difficult to reproduce their results and identify the most useful strategies due to the lack of public datasets and method implementations, and inconsistencies in the reported evaluation metrics. Therefore, there is a pressing need to develop a benchmark, to objectively compare current approaches and gain insights on techniques that improve the generalization of BUS image classification.
+ In this work, we build a benchmark for BUS image classification that consists of a large public dataset with 3,641 B-mode BUS images, provide open-source code of state-of-the-art approaches, and identify the best strategies for deep learning-based BUS classification.</p>
+
+<p><button class="button button3"><span style="color:Black"><b><a href="http://arxiv.org/">Read the benchmark paper (TBA)</a></b></span></button></p>
+
+<h3 id="to-annotate-your-images-visit-our-free-tool">To annotate your images, visit our free tool:</h3>
+
+<p><button class="button button3"><span style="color:Black"><b> <a href="http://bus.midalab.net/">Image annotation tool</a></b></span></button></p>
+
+<h3 id="--if-you-use-any-of-the-results-of-this-project-please-cite-the-following-papers-"><left><span style="color:Black">  If you use any of the results of this project, please cite the following papers: </span></left></h3>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@article{BusB, 
+	title = {A benchmark for breast ultrasound image classification},
+	author = {Bryar Shareef, Min Xian, Aleksandar Vakanski, Jianrui Ding, Chunping Ning, Heng-Da Cheng},
+	journal = { arXiv },
+	Year = {2022}
+}
+	@article{ESTAN, 
+	title = {ESTAN: Enhanced small tumor-aware network for breast ultrasound image segmentation},
+	author = {Bryar Shareef, Aleksandar Vakanski,  Min Xian},
+	journal = { arXiv },
+	Year = {2020}
+}
+	@article{STAN, 
+	title = {STAN: Small tumor-aware network for breast ultrasound image segmentation},
+	author = {Bryar Shareef, Aleksandar Vakanski,  Min Xian},
+	conference = { IEEE 17th International Symposium on Biomedical Imaging (ISBI) },
+	Year = {2020}
+}
+</code></pre></div></div>
+
+<h4 id="note-"><left><span style="color:Red">Note: </span></left></h4>
+<p>We are actively working on this project, if you would like to contribute, please contact us. 
+The contributions can be new BUS images, algorithm implementations, your results, or any other knowledge that can enrich the benchmark.</p>
+
+<h3 id="--contact-us-"><left><span style="color:Black">  Contact us: </span></left></h3>
+<p>Prof. Min Xian<br />
+Email: <a href="mailto:mxian@uidaho.edu">mxian@uidaho.edu</a><br />
+MIDA Lab <br />
+Department of Computer Science<br />
+University of Idaho</p>
+
+
+</div>
+
+
+    <footer class="site-footer">
+    MIDA Breast Ultrasound Benchmark<br />
+
+    Published and maintained by <a href="midalab.net">MIDA Lab</a>.
+    <!-- 
+     :: <a href="midalab.net">Website source</a>
+     -->
+    
+</footer>
+
+
+    
+
+    </div>
+  </body>
+
+</html>
