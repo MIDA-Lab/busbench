@@ -78,9 +78,9 @@ Any redistribution and commercial use of the benchmark are prohibited.
 </table>
 
 <h2 id="Lorem_Ipsum"> Dataset preparation</h2>
-To generate the <i>benchmark</i> dataset, we first download and unzip the <a href="http://bus.midalab.net/filesharing/download/6f591831-2d6a-4eae-bbd7-e8116996880a" >"Benchmark" </a> folder. The Benchmark folder contains all the preprocessing code, and "Datasets" 
+To generate the *benchmark* dataset, we first download and unzip the ["Benchmark"](http://bus.midalab.net/filesharing/download/7e54bb0d-b328-42cf-83b6-61d29846dc6e) folder. The Benchmark folder contains all the preprocessing code, and "Datasets" 
 folders, where later we introduce all the files and folders. 
-				
+
 <ol>
 <li> Download the five datasets individually and follow the instructions:</li> 
 
