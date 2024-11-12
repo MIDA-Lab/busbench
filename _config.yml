@@ -1,6 +1,6 @@
 title: MIDA/BUS Benchmark
 description: MIDA Breast Ultrasound Benchmark
-sourcecode: "midalab.net"
+sourcecode: "https://github.com/MIDA-Lab"
 
 permalink: blog/:year/:month/:day/:title
 exclude: ["Makefile", "README.md"]
