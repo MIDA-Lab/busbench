@@ -2,7 +2,7 @@
 layout: page
 ---
 
-# <center>A Benchmark for Breast Ultrasound Image Classification</center>
+# A Benchmark for Breast Ultrasound Image Classification
 
 Classification of breast ultrasound (BUS) images is an essential yet challenging task in computer-aided diagnosis systems. Recently, deep learning-based approaches for BUS image classification have demonstrated state-of-the-art performance; however, it is difficult to reproduce their results and identify the most useful strategies due to the lack of public datasets and method implementations, and inconsistencies in the reported evaluation metrics. Therefore, there is a pressing need to develop a benchmark, to objectively compare current approaches and gain insights on techniques that improve the generalization of BUS image classification. In this work, we build a benchmark for BUS image classification that consists of a large public dataset with 3,641 B-mode BUS images, provide open-source code of state-of-the-art approaches, and identify the best strategies for deep learning-based BUS classification.
 
