@@ -6,11 +6,9 @@ layout: page
 
 Classification of breast ultrasound (BUS) images is an essential yet challenging task in computer-aided diagnosis systems. Recently, deep learning-based approaches for BUS image classification have demonstrated state-of-the-art performance; however, it is difficult to reproduce their results and identify the most useful strategies due to the lack of public datasets and method implementations, and inconsistencies in the reported evaluation metrics. Therefore, there is a pressing need to develop a benchmark, to objectively compare current approaches and gain insights on techniques that improve the generalization of BUS image classification. In this work, we build a benchmark for BUS image classification that consists of a large public dataset with 3,641 B-mode BUS images, provide open-source code of state-of-the-art approaches, and identify the best strategies for deep learning-based BUS classification.
 
-<button class="button button3"><span style="color:Black"><b><a href="http://arxiv.org/">Read the benchmark paper (TBA)</a></b></span></button>
+### Read the benchmark paper: [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4339660)
 
-### To annotate your images, visit our free tool: 
-
-<button class="button button3"><span style="color:Black"><b> <a href="http://bus.midalab.net/">Image annotation tool</a></b></span></button> 
+### To annotate your BUS images, visit our free tool: [Image Annotation Tool](http://bus.midalab.net/)
 
 ### If you use any of the results of this project, please cite the following papers:
 	@article{BusB, 

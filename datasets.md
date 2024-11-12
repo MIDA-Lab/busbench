@@ -1,9 +1,21 @@
 ---
 layout: page
 ---
+
 ## Benchmark Dataset
 In the benchmark, we used 3,614 breast ultrasound images from five public datasets.  To prepare the benchmark, please obtain permission of the original owners of each dataset, follow their copyright and usage policies, and cite and acknowledge their great efforts in your research. Any redistribution and commercial use of the benchmark are prohibited. 
- 
+
+| Datasets           | Total BUS Images | Class Distribution             | Location           | Devices                                                                    | 
+|--------------------|------------------|--------------------------------|--------------------|----------------------------------------------------------------------------|
+|  [HMSS](https://www.ultrasoundcases.info/)              | 2,006            | Benign: 846   Malignant: 1,160 | Netherlands/Europe | Fujifilm  Ultrasound                                                       | 
+|  [BUSI](https://scholar.cu.edu.eg/?q=afahmy/pages/dataset)              | 647              | Benign: 437    Malignant: 210  | Egypt/Africa       | LOGIQ E9, LOGIQ E9 Agile                                                   |
+|  [BUSIS](http://cvprip.cs.usu.edu/busbench/)             | 562              | Benign: 306   Malignant: 256   | China/Asia         | GE VIVID 7, LOGIQ E9, Hitachi EUB-6500, Philips iU22, Siemens ACUSON S2000 |
+|  [Thammasat](http://www.onlinemedicalimages.com/index.php/en/81-site-info/73-introduction)         | 263              | Benign: 120   Malignant: 143   | Thailand/Asia      | Samsung RS80A, Philips iU22                                                | 
+|  [Dataset B](http://www2.docm.mmu.ac.uk/STAFF/m.yap/dataset.php)         | 163              | Benign: 109   Malignant: 54    | Spain/Europe       | Siemens ACUSON  Sequoia C512                                               | 
+| Total # of images: | 3,641            |                                |                    |                                                                            | 
+
+
+<!--  
 <style>
       table,
       th,
@@ -71,7 +83,7 @@ In the benchmark, we used 3,614 breast ultrasound images from five public datase
       <td style="text-align: center" colspan=1>3,641</td>
     </tr>
   </tbody>
-</table>
+</table> -->
 
 
 ## Dataset preparation

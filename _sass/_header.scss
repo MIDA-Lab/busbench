@@ -1,5 +1,5 @@
 .site-header {
-    border-bottom: 1px solid #fffff;
+    border-bottom: 1px solid $line-color;
     position: relative;
     text-transform: uppercase;
     font-size: $small-font-size;
@@ -22,7 +22,7 @@
 }
 
 .site-nav {
-    background: #fffff;
+    background: $background;
 }
 
 .site-nav ul {
@@ -49,7 +49,7 @@
     display: block;
     line-height: 1.2em;
     padding: 4px 10px;
-    color: #black;
+    color: $header-hover-color;
 }
 
 .site-nav .sub-menu a:hover {
@@ -104,7 +104,7 @@
     }
 
     .page-link {
-        color: #black;
+        color: $header-text-color;
 
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {

@@ -1,6 +1,6 @@
 @include media-query($mobile) {
     .site-nav h1 {
-        border-bottom: 1px solid #black;
+        border-bottom: 1px solid $line-color;
         cursor: pointer;
         display: none; /* Standard. IE8+, Saf, FF3+ */
         height: 23px;

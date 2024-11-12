@@ -16,7 +16,7 @@ body {
     font-size:   $base-font-size;
     line-height: $base-line-height;
     color:       $text-color;
-    background-color: #fffff;
+    background-color: $background;
     margin: 0 $spacing-unit/2;
     -webkit-text-size-adjust: 100%;
 }
@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5, h6 {
 
 // Links
 a {
-    color: $url-hover-color;
+    color: $url-color;
     text-decoration: none;
     &:hover {
         color: $url-hover-color;
@@ -84,7 +84,7 @@ a {
 
 // Blockquotes
 blockquote {
-    background-color: #fffff;
+    background-color: $dark-background;
     border-left: 4px solid darken($line-color, 66%);
     padding-left:   1.0em;
     padding-right:  0.8em;
@@ -100,7 +100,7 @@ blockquote {
 pre, code {
     border: 1px solid $line-color;
     border-radius: 3px;
-    background-color: #fffff;
+    background-color: $dark-background;
     font-family: monospace;
     font-size: $small-font-size;
 }
@@ -128,7 +128,7 @@ pre {
         height: 0.75em;
         vertical-align: middle;
         path {
-            fill: #fffff;
+            fill: $text-color;
         }
     }
 }
@@ -160,10 +160,19 @@ ul.listing li.listing-item time {
 ul.listing li.listing-item a {
     color: $url-color;
 }
-.mbtablestyle {
-        border-collapse: collapse;
 
-   > table, td, th {
-        border: 1px solid black;
-        }
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: $spacing-unit;
+    th, td {
+        border: 1px solid $line-color;
+        padding: 0.5em;
+    }
+    th {
+        background-color: $dark-background;
+    }
+    tr:nth-child(even) {
+        background-color: $dark-background;
+    }
 }

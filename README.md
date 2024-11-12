@@ -15,3 +15,16 @@ Both the above are not seminal achievements in science, but they are useful. Thi
 See it in action [here](http://people.csail.mit.edu/gchauras).
 
 Feel free to send me pull requests with better responsive performance or cleaner HTML/CSS.
+
+## Serve with Docker
+    
+```bash
+docker run -e JEKYLL_UID=$UID -e JEKYLL_GID=$GID --rm -p 4000:4000 -v $PWD:/srv/jekyll jekyll/jekyll jekyll serve
+```
+
+## Build with Docker
+
+```bash
+docker run --rm -v $PWD:/srv/jekyll jekyll/jekyll jekyll b
+# find the generated site in _site directory
+```
