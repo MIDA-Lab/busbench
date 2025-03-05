@@ -16,7 +16,7 @@ In the benchmark, we used 3,614 breast ultrasound images from five public datase
 
 
 ## Dataset preparation
-To generate the *benchmark* dataset, we first download and unzip the ["Benchmark"](http://bus.midalab.net/filesharing/download/7e54bb0d-b328-42cf-83b6-61d29846dc6e) folder. The Benchmark folder contains all the preprocessing code, and "Datasets" 
+To generate the *benchmark* dataset, we first download and unzip the ["Benchmark"]({{ site.baseurl }}/download/Benchmark.zip) folder. The Benchmark folder contains all the preprocessing code, and "Datasets" 
 folders, where later we introduce all the files and folders. 
 
 1. Download the five datasets individually and follow the instructions:
